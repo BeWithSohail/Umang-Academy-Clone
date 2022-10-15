@@ -1,0 +1,74 @@
+.pink-bg {
+    background: #ee5ab0;
+    padding: 20px;
+    color: #fff;
+    }
+
+    .level-item {}
+
+    .level-item p {
+    color: #fff;
+    font-size: 14px;
+    }
+
+    .level-item p i {
+    margin-right: 10px;
+    }
+    .less-padding{
+    padding: 20px;
+    }
+    .no-padding{
+    padding: 0 !important;
+    }
+    .hero-banner{
+    position: relative;
+    }
+    .slide-content-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    .inner-banner-content{
+    width: 50%;
+    }
+
+    .banner-layer{
+    display: flex;
+    align-items: center;
+    }
+    .banner-layer {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    }
+    .footer{
+        background: #c4eafb;
+        background-size: cover;
+        padding: 40px 0;
+        position: relative;
+        }
+
+    .content li a{
+        font-size: 16px;
+        color: #000;
+        font-weight: 500;
+        padding: 4px 12px;
+        display: block;
+    }
+    .hero-banner{
+        background:url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .inner-banner-content {
+            width: 100%;
+        }
+        .banner-layer{
+            padding: 100px 30px;
+        }
+        .subtitle.is-1 {
+            font-size: 2rem;
+        }
+    }
